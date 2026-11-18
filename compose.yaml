@@ -28,7 +28,7 @@ services:
       - loki
 
   grafana:
-    image: grafana/grafana:12.0.0
+    image: grafana/grafana:13.3.0
     environment:
       # Dev only: no login, everyone is admin. Never expose this port publicly.
       GF_AUTH_ANONYMOUS_ENABLED: "true"
